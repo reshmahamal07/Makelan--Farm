@@ -10,7 +10,7 @@ The website must have:
 ## 2.Visitors
 The website is designed for three types of visitors:
 - **New customers:** People who want to learn about my business and the services it offers .
-- **Returning customers:** People who want to find updated information about products ,services and opening hours.
+- **Returning customers:** People who want to find updated information about products , services and opening hours.
 - **Potential customers:** People who wnt to find contact information and ask questions.
 
 
