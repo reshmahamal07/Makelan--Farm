@@ -23,4 +23,4 @@ I asked ChatGPT what I should write in my `ai-log.md` file. It explained what in
 I Use the ai log detail to explain where I use AI for my work.
 
 ## What I learned
-Using AI helped me organise my ideas and understand the assignment. I learned that a website needs clear navigation, good content and correct HTML structure. I also learned that I should check and improve AI suggestions .
+Using AI helped me organise my ideas and understand the assignment. I learned that a website needs clear navigation, good content and correct HTML structure. I also learned that I should check and improve AI suggestions for correct solution.
