@@ -3,7 +3,7 @@ The goal of this website is to introduce my business to customers and provide us
 
 ### Website Requirements 
 The website must have:
-- Four HTmL pages.
+- Four HtmL pages.
 - Clear navigation.
 - Images with alt text.
 
@@ -24,7 +24,7 @@ Content:Welcome message,business introduction and pictures.
 
 Next step: Visitors can learn more about my business.
 
-### About Page (about.html)
+### About Page (openinghours.html)
 
 Purpose: Tell vistors about my business.
 
@@ -32,7 +32,7 @@ Content: Business history, background and information.
 
 Next step: Visitors can explore my services .
 
-### Listing Page (listing.html)
+### Listing Page (product.html)
 
 Purpose: Show the products or services I offer.
 
