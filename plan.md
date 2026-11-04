@@ -3,7 +3,7 @@ The goal of this website is to introduce my business to customers and provide us
 
 ### Website Requirements 
 The website must have:
-- Four HtmL pages.
+- Four HTML pages.
 - Clear navigation.
 - Images with alt text.
 
@@ -11,7 +11,7 @@ The website must have:
 The website is designed for three types of visitors:
 - **New customers:** People who want to learn about my business and the services it offers .
 - **Returning customers:** People who want to find updated information about products ,services and opening hours.
-- **Potential customer:** People who wnt to find contact information and ask questions.
+- **Potential customers:** People who wnt to find contact information and ask questions.
 
 
 ## 3. Content Plan
