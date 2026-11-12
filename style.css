@@ -121,3 +121,72 @@ img {
         color: white;
     }
 }
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #FCE5C8;
+    border-radius: 12px;
+}
+
+.hero h2 {
+    color: #245B55;
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero a {
+    display: inline-block;
+    background: #245B55;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero a:hover {
+    background: #173F3A;
+}
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+nav a {
+    margin: 5px;
+}
+
+@media (max-width: 320px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        width: calc(100% - 20px);
+        padding: 12px;
+    }
+}
