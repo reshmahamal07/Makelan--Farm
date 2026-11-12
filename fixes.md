@@ -5,7 +5,7 @@
 - The original page had missing or incorrect styling.
 - Navigation links needed to match the correct HTML filenames.
 - The pages needed a shared CSS stylesheet.
-- The layout needed improvements for mobile screens.
+- The layout needed improvement for mobile screens.
 
 ## Fixes made
 
