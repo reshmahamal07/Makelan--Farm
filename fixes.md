@@ -16,3 +16,7 @@
 - Added visible keyboard focus styling.
 - Added dark mode using prefers-color-scheme.
 - Improved the homepage with a welcome section and farm image.
+
+## Note
+
+The handed-out broken page was not included in the project files, so it still needs to be provided and checked.
