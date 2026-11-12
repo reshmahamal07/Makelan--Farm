@@ -29,6 +29,7 @@ Add three reference websites from your E1 research or plan.md.
 2. [Uotilat](https://www.uotilat.fi/english)
 3. [Maatilapuoti](https://maatilapuoti.fi/en/)
 
+
 ## 5. Image reference
 
-Farm produce photograph saved as farm.jpg.
+![Fresh vegetables at Mäkelän Farm Shop](images/farm.jpg)
