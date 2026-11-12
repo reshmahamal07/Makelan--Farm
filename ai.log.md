@@ -26,7 +26,7 @@ I shared my issue in assignment to AI because I wanted to understand what I need
 
 It explained the HTML pages, navigation, headings, images and validation. It also explained the GitHub requirements.
 
-This helped me understand the assignment better and plan my next steps.
+This helped me understand the assignment better and plan the next steps.
 
 ## 5. Creating this AI log
 

@@ -119,7 +119,7 @@ After you approve this plan:
 
 - I will check that all navigation links work.
 
-- I will validate all HTML pages and fix any errors.
+- I will validate all HTML pages and fix the errors.
 
 - I will publish the website using GitHub Pages.
 
