@@ -15,7 +15,7 @@
 - Added responsive CSS for smaller screens.
 - Added visible keyboard focus styling.
 - Added dark mode using prefers-color-scheme.
-- Improved the homepage with a welcome section and farm image.
+- Improved the homepage  with a welcome section and farm image.
 
 ## Note
 
