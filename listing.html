@@ -4,9 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Products - Mäkelän Farm Shop</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript file -->
+    <script src="app.js" defer></script>
 </head>
+
 <body>
 
     <header>
@@ -21,16 +27,112 @@
     </nav>
 
     <main>
+
         <p>Discover our selection of fresh produce and farm products.</p>
 
-        <h2>Fresh Products</h2>
-        <p>Fresh fruits and vegetables sourced directly from our farm. Enjoy the taste of seasonal goodness!</p>
+        <!-- Search products -->
+        <section>
+            <h2>Find Products</h2>
 
-        <h2>Farm Products</h2>
-        <p>We also offer a variety of farm products including dairy, eggs, and homemade preserves. Support local farming and enjoy high-quality products!</p>
+            <label for="product-search">Search:</label>
+            <input
+                type="search"
+                id="product-search"
+                placeholder="Search products..."
+            >
+        </section>
 
-        <h2>Special Offers</h2>
-        <p>Check out our special offers and discounts on selected products. Don't miss out on these great deals!</p>
+        <!-- Filter products -->
+        <section>
+            <h2>Filter Products</h2>
+
+            <button type="button" data-filter="all"
+                aria-pressed="true">All</button>
+
+            <button type="button" data-filter="fresh"
+                aria-pressed="false">Fresh Products</button>
+
+            <button type="button" data-filter="farm"
+                aria-pressed="false">Farm Products</button>
+
+            <button type="button" data-filter="offers"
+                aria-pressed="false">Special Offers</button>
+        </section>
+
+        <!-- Sort products -->
+        <section>
+            <h2>Sort Products</h2>
+
+            <label for="sort-products">Sort by:</label>
+
+            <select id="sort-products">
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+            </select>
+        </section>
+
+        <!-- Status message -->
+        <p id="product-status" aria-live="polite">
+            Showing 5 of 5 products
+        </p>
+
+        <!-- Product listing -->
+        <section id="product-list">
+
+            <article class="product-card"
+                data-category="fresh"
+                data-price="3.50">
+
+                <h3>Fresh Fruits</h3>
+                <p>Fresh fruits sourced directly from our farm.</p>
+                <p>Price: €3.50</p>
+
+            </article>
+
+            <article class="product-card"
+                data-category="fresh"
+                data-price="4.00">
+
+                <h3>Fresh Vegetables</h3>
+                <p>Seasonal vegetables from our farm.</p>
+                <p>Price: €4.00</p>
+
+            </article>
+
+            <article class="product-card"
+                data-category="farm"
+                data-price="2.50">
+
+                <h3>Farm Dairy Products</h3>
+                <p>High-quality dairy products from our farm.</p>
+                <p>Price: €2.50</p>
+
+            </article>
+
+            <article class="product-card"
+                data-category="farm"
+                data-price="3.00">
+
+                <h3>Fresh Farm Eggs</h3>
+                <p>Fresh eggs from our local farm.</p>
+                <p>Price: €3.00</p>
+
+            </article>
+
+            <article class="product-card"
+                data-category="offers"
+                data-price="5.00">
+
+                <h3>Special Offers</h3>
+                <p>Discover our selected farm products and discounts.</p>
+                <p>Price: €5.00</p>
+
+            </article>
+
+        </section>
+
     </main>
 
     <footer>
@@ -39,3 +141,4 @@
 
 </body>
 </html>
+
