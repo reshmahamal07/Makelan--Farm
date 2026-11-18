@@ -22,7 +22,7 @@ After reviewing the suggestions, I updated my plan to make it clearer and more c
 
 ## 4. Understanding the E1 assignment
 
-I shared my issue in assignment to AI because I wanted to understand what I needed to do next.
+I shared my assignment questions with AI because I wanted to understand what I needed to do next.
 
 It explained the HTML pages, navigation, headings, images and validation. It also explained the GitHub requirements.
 
@@ -30,35 +30,34 @@ This helped me understand the assignment better and plan the next steps.
 
 ## 5. Creating this AI log
 
-I asked ChatGPT and Copilot what I should write in my `ai-log.md` file. It explained what information I should include.
+I asked ChatGPT and Copilot what I should write in my `ai-log.md` file. They explained what information I should include.
 
 I used these suggestions to explain how and where I used AI during my work.
 
-## What I learned
-
-Using AI helped me organise my ideas, improve my website plan and understand the assignment. I learned that a website needs clear navigation, good content and correct HTML structure.
-
-I also learned that AI can help me find mistakes and improve my work, but I should always check its suggestions myself to make sure they are correct.
-
 ## 6. Working on E3
+
 For E3, I used ChatGPT to understand what I needed to add to my website. I worked on making the Products page more interactive.
 
 I added filtering, searching and sorting so visitors can find products more easily. I also added a message to show how many products are displayed on the page.
 
 On the Contact page, I added a form where visitors can enter their name, email and message. I worked on making sure the form shows error messages when something is missing or incorrect. I also used localStorage to save the submitted details in the browser.
 
-I added a quick links menu that opens and closes when the button is clicked.
+I added a quick links menu that opens and closes using a button.
 
 ## 7. Testing my website
+
 After making the changes, I tested the features in my browser.
 
-I tried submitting the contact form without filling it in to check if the error messages appeared. Then I filled it in correctly to check if the message was saved.
+I tried submitting the contact form without filling it in to check that the error messages appeared. Then I filled it in correctly to check that the message was saved and displayed.
 
-also tested the quick links menu and checked that it closes when I press the Escape key.
+I also tested the quick links menu and checked that it closes when I press the Escape key.
 
-On the Products page, I tested the filters and checked that the number of displayed products changed.
+I tested the Contact page using only my keyboard, including Tab, Enter and Escape.
 
-## 8. What I learned 
+On the Products page, I tested the filters, search and sorting. I also checked that the number of displayed products changed when I used the filters.
+
+## 8. What I learned
+
 I learned more about JavaScript and how it can make a website interactive. I also learned about form validation, saving information in the browser and using buttons and keyboard controls.
 
-ChatGPT helped me when I did not understand something or got stuck and tested the changes myself and checked that they worked on my website.
+ChatGPT helped me when I did not understand something or got stuck. I tested the changes myself and checked that they worked on my website.
