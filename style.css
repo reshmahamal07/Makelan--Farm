@@ -1,3 +1,4 @@
+
 :root {
     --background: #FFF8E8;
     --surface: #FFFFFF;
@@ -18,13 +19,21 @@
     box-sizing: border-box;
 }
 
+html,
 body {
+    max-width: 100%;
     margin: 0;
+    overflow-x: hidden;
+}
+
+body {
     background: var(--background);
     color: var(--text);
     font-family: var(--body-font);
     line-height: 1.6;
 }
+
+/* HEADER */
 
 header {
     background: var(--primary);
@@ -38,22 +47,39 @@ header h1 {
     font-size: 2.4rem;
 }
 
+/* NAVIGATION */
+
 nav {
-    background: #E58A55;
+    background: var(--accent);
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
     color: #263238;
     text-decoration: none;
     font-weight: bold;
-    margin: 0 1rem;
+    margin: 5px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
+
+/* MAIN CONTENT */
 
 main {
     max-width: 1000px;
@@ -69,6 +95,58 @@ h2 {
     font-family: var(--heading-font);
 }
 
+/* HERO SECTION */
+
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #FCE5C8;
+    border-radius: 12px;
+}
+
+.hero h2 {
+    color: #245B55;
+    font-size: 2rem;
+}
+
+.hero p {
+    color: #263238;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero a {
+    display: inline-block;
+    background: #245B55;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero a:hover {
+    background: #173F3A;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+/* IMAGES */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+
 footer {
     background: var(--primary);
     color: white;
@@ -76,15 +154,14 @@ footer {
     padding: 1rem;
 }
 
+/* KEYBOARD ACCESSIBILITY */
+
 :focus-visible {
     outline: 3px solid #9A3F16;
     outline-offset: 4px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+/* MOBILE LAYOUT */
 
 @media (max-width: 600px) {
     header h1 {
@@ -99,9 +176,50 @@ img {
     main {
         padding: 1rem;
     }
+
+    .hero {
+        padding: 2rem 1rem;
+    }
 }
 
+/* SMALL MOBILE SCREENS */
+
+@media (max-width: 320px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        width: calc(100% - 20px);
+        padding: 12px;
+    }
+}
+
+/* DESKTOP LAYOUT */
+
+@media (min-width: 900px) {
+    main {
+        max-width: 1100px;
+        padding: 3rem;
+    }
+
+    .hero {
+        padding: 4rem 3rem;
+    }
+
+    .hero img {
+        max-height: 450px;
+    }
+
+    header {
+        padding: 4rem 2rem;
+    }
+}
+
+/* DARK MODE */
+
 @media (prefers-color-scheme: dark) {
+
     :root {
         --background: #182A28;
         --surface: #263B38;
@@ -120,82 +238,8 @@ img {
     nav a {
         color: white;
     }
-}
-.hero {
-    text-align: center;
-    padding: 3rem 1rem;
-    background: #FCE5C8;
-    border-radius: 12px;
-}
 
-.hero h2 {
-    color: #245B55;
-    font-size: 2rem;
-}
-
-.hero p {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-}
-
-.hero a {
-    display: inline-block;
-    background: #245B55;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero a:hover {
-    background: #173F3A;
-}
-.hero img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-top: 1rem;
-}
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-}
-
-nav a {
-    margin: 5px;
-}
-
-@media (max-width: 320px) {
-    header h1 {
-        font-size: 1.5rem;
+    .hero p {
+        color: #263238;
     }
-
-    main {
-        width: calc(100% - 20px);
-        padding: 12px;
-    }
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    margin: 0;
-    padding: 0;
 }
